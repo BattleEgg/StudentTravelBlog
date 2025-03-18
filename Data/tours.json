@@ -1,0 +1,20 @@
+[
+    {
+        "image": "/Data/Images/north_europe.png",
+        "title": "Северная Европа",
+        "description": "- Красота и строгость.",
+        "date": "2025-03-17"
+    },
+    {
+        "image": "/Data/Images/golden_ring_russia.png",
+        "title": "Золотое кольцо России",
+        "description" : "- Новый взгляд.",
+        "date": "2025-03-18"
+    },
+    {
+        "image": "/Data/Images/piligrimage_trail.png",
+        "title": "Тропа Пилигрима",
+        "description" : "- Из Испании в Португалию",
+        "date": "2025-03-19"
+    }
+]

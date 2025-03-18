@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+hr
+{
+    height: 0px; 
+    background-color: #656464; 
+    margin-top: 50px; 
+    margin-bottom: 0px; 
+    width: calc(100% - 80px); 
+    margin-left: auto; 
+    margin-right: auto;    
+}
+
+#travels {
+    padding-top: 60px; /* Добавляет отступ сверху, чтобы избежать наложения */
+}
+
+/* Секции */
+.flex-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Закрепляет навигационную панель */
+    top: 0; /* Устанавливает её в верхней части экрана */
+    width: 100%; /* Ширина на всю ширину экрана */
+    background-color: rgb(201, 199, 199); /* Цвет фона */
+    z-index: 1000; /* Обеспечивает, чтобы панель была сверху других элементов */
+}
+
+.flex-section-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e6e6;
+}
+
+.flex-section-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #f0f0f0;
+}
+
+.flex-section-travels
+{
+    background-color: #e8e6e6;
+}
+
+/* Элементы секций */
+
+.flex-nav-item {
+    background-color: #f48937;
+    padding: 40px;
+    margin: 1px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-section-about-item {
+    padding: 20px;
+    margin: 40px;
+    flex: 1;
+    text-align: justify;
+}
+
+.flex-section-about-image {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    display: flex;
+}
+
+.flex-section-footer-item {
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    resize: horizontal;
+}
+
+
+/* Элементы элементов секций */
+
+.flex-nav-item a {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    margin:auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.header-logo {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex-section-about-item p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    display: block;
+}
+
+.flex-section-footer-item p {
+    font-family: "Merriweather", serif;
+    color: rgb(39, 39, 39);
+    margin-top: auto;
+    display: block;
+}
+
+.flex-section-footer-item a {
+    font-family: "Merriweather", serif;
+    color: #0D73FE;
+    text-decoration: none;
+    display: block;
+}
+
+/* Headers*/
+
+.flex-header-border {
+    height: 1px; 
+    background-color: #575757; 
+    margin-top: 5px; 
+    margin-bottom: 40px; 
+    width: calc(100% - 40px); 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.flex-header-gray {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #e8e6e6;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    resize: horizontal;
+}
+
+.flex-header-base {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    resize: horizontal;
+}
+
+.flex-header-gray h1 {
+    font-family: "Merriweather", serif;
+    padding-left: 20px;
+    font-size: 34px;
+    color: #333;
+}
+
+.flex-header-base h1 {
+    font-family: "Merriweather", serif;
+    padding-left: 20px;
+    font-size: 34px;
+    color: #333;
+}
+
+/* Списки */
+
+.flex-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.flex-item-list {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px; 
+    height: 300px; 
+    max-width: 100%; 
+    max-height: 100%;
+    box-sizing: border-box; 
+}
+
+.flex-item-list h3 
+{
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    color: #333;
+    display: block;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex-item-list h5 
+{
+    font-family: "Merriweather", serif;
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: normal;
+    display: block;
+    padding-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.flex-item-list p 
+{
+    font-family: "Merriweather", serif;
+    text-align: right;
+    font-size: 14px;
+    color: #969696;
+    font-weight: normal;
+    display: block;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.flex-item-list img {
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}

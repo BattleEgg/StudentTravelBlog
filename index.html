@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Блог Ивана Иванова</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="flex-nav-bar">
+            <div class="flex-nav-item">
+                <a href="#travels">ПУТЕШЕСТВИЯ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="#countries">СТРАНЫ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="#about">ОБО МНЕ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="#tours">ТУРЫ</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="travels">
+        <header id=header-travels>
+            <div class="flex-header-gray">
+                <h1>НОВОЕ В БЛОГЕ</h1>
+                <div class="flex-header-border"></div>
+            </div>
+        </header>
+        <div class="flex-section-travels">
+            <div class="flex-section-list">
+                <ul id="travelsList"></ul>
+                <script src="Scripts/travelsScript.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <section id="countries">
+        <header id=header-countries>
+            <div class="flex-header-base">
+                <h1>CТРАНЫ</h1>
+                <div class="flex-header-border"></div>
+            </div>
+        </header>
+        <div class="flex-section-countries">
+            <div class="flex-section-list">
+                <ul id="countriesList"></ul>
+                <script src="Scripts/countriesScript.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <header id=header-about>
+            <div class="flex-header-gray">
+                <h1>ОБО МНЕ</h1>
+            </div>
+        </header>
+        <div class="flex-section-about">
+            <div class="flex-section-about-image">
+                <img src="\Data\Images\imgAboutMe.png" alt="Здесь должен был быть я" class="about-image" />
+            </div>
+            <div class="flex-section-about-item">
+                <p>
+                    Меня зовут Иванов Иван, и я начинающий путешественник. Совсем недавно
+                    я открыл для себя страсть к исследованию нового и неизведанного,
+                    и теперь мое сердце переполняет желание делиться своими приключениями
+                    со всем миром.
+                </p>
+                <p>
+                    Делясь своими впечатлениями в блоге, я надеюсь вдохновить других людей на
+                    путешествия. Мне хочется показать, что открывать для себя новые
+                    горизонты - это увлекательно, познавательно и, самое главное,
+                    доступно каждому.
+                </p>
+                <p>
+                    Пусть мои рассказы станут для вас отправной точкой
+                    в мир приключений!
+                </p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours">
+        <header id=header-tours>
+            <div class="flex-header-base">
+                <h1>Туры</h1>
+                <div class="flex-header-border"></div>
+            </div>
+        </header>
+        <div class="flex-section-tours">
+            <div class="flex-section-list">
+                <ul id="toursList"></ul>
+                <script src="Scripts/toursScript.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr></hr>
+        <div class="flex-section-footer">
+            <div class="flex-section-footer-item">
+                <p>© 2025 Тревел-блог Ивана Иванова.</p>
+                <p>Все права защищены.</p>
+            </div>
+            <div class="flex-section-footer-item">
+                <p>Связаться со мной:</p>
+                <p>
+                    <a href=""> Вконтакте</a>
+                    <a href=""> Телеграмм</a>
+                    <a href=""> Инстаграмм</a>
+                </p>
+            </div>
+            <div class="flex-section-footer-item">
+                <p>Контакты:</p>
+                <p><a href=""> +7(906)179-64-12</a></p>
+                <p><a href=""> <a href=""> ivanivanov_work@example.com</a></a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
