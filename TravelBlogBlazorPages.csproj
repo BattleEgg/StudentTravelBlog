@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Data\Images\dover_cliffs.png" />
+    <None Include="wwwroot\Data\Images\germany.png" />
+    <None Include="wwwroot\Data\Images\golden_ring_russia.png" />
+    <None Include="wwwroot\Data\Images\greenland.png" />
+    <None Include="wwwroot\Data\Images\hispany.png" />
+    <None Include="wwwroot\Data\Images\imgAboutMe.png" />
+    <None Include="wwwroot\Data\Images\imgLogo.png" />
+    <None Include="wwwroot\Data\Images\north_europe.png" />
+    <None Include="wwwroot\Data\Images\paris.png" />
+    <None Include="wwwroot\Data\Images\piligrimage_trail.png" />
+    <None Include="wwwroot\Data\Images\stambul.png" />
+  </ItemGroup>
+
+</Project>
