@@ -8,13 +8,13 @@
     {
         "image": "/Data/Images/golden_ring_russia.png",
         "title": "Золотое кольцо России",
-        "description" : "- Новый взгляд.",
+        "description": "- Новый взгляд.",
         "date": "2025-03-18"
     },
     {
         "image": "/Data/Images/piligrimage_trail.png",
         "title": "Тропа Пилигрима",
-        "description" : "- Из Испании в Португалию",
+        "description": "- Из Испании в Португалию",
         "date": "2025-03-19"
     }
 ]
