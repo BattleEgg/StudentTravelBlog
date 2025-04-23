@@ -32,3 +32,7 @@ C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\obj\Debu
 C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\obj\Debug\net8.0\TravelBlogBlazorPages.pdb
 C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\obj\Debug\net8.0\TravelBlogBlazorPages.genruntimeconfig.cache
 C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\obj\Debug\net8.0\ref\TravelBlogBlazorPages.dll
+C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\bin\Debug\net8.0\StudentTravelBlog\Data\countries.json
+C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\bin\Debug\net8.0\StudentTravelBlog\Data\tours.json
+C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\bin\Debug\net8.0\StudentTravelBlog\Data\travels.json
+C:\Users\timmy\source\repos\TravelBlogBlazorPages\TravelBlogBlazorPages\obj\Debug\net8.0\TravelBlogBlazorPages.sourcelink.json

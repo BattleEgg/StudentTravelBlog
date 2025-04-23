@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\TravelBlogBlazorPages.i07rtj1ixb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Data\\Images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\Switherland.jfif",
+      "PackagePath": "staticwebassets\\Data\\Images\\Switherland.jfif"
+    },
+    {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\dover_cliffs.png",
       "PackagePath": "staticwebassets\\Data\\Images\\dover_cliffs.png"
     },
@@ -23,6 +31,10 @@
     {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\hispany.png",
       "PackagePath": "staticwebassets\\Data\\Images\\hispany.png"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\images.jfif",
+      "PackagePath": "staticwebassets\\Data\\Images\\images.jfif"
     },
     {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\imgAboutMe.png",
@@ -49,6 +61,22 @@
       "PackagePath": "staticwebassets\\Data\\Images\\stambul.png"
     },
     {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\use case 3.0.png",
+      "PackagePath": "staticwebassets\\Data\\Images\\use case 3.0.png"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\командный проект юз кейс.png",
+      "PackagePath": "staticwebassets\\Data\\Images\\командный проект юз кейс.png"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png",
+      "PackagePath": "staticwebassets\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png",
+      "PackagePath": "staticwebassets\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png"
+    },
+    {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\countries.json",
       "PackagePath": "staticwebassets\\Data\\countries.json"
     },
@@ -59,6 +87,10 @@
     {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\travels.json",
       "PackagePath": "staticwebassets\\Data\\travels.json"
+    },
+    {
+      "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\admin_styles.css",
+      "PackagePath": "staticwebassets\\css\\admin_styles.css"
     },
     {
       "Id": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\site.css",

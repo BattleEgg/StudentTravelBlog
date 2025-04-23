@@ -1,0 +1,20 @@
+[
+    {
+        "image": "/Data/Images/paris.png",
+        "title": "Париж",
+        "description": "- Романтика, искусство, культура.",
+        "date": "2025-03-17"
+    },
+    {
+        "image": "/Data/Images/stambul.png",
+        "title": "Стамбул",
+        "description" : "- История, культура, многообразие.",
+        "date": "2025-03-18"
+    },
+    {
+        "image": "/Data/Images/dover_cliffs.png",
+        "title": "Скалы Дувра",
+        "description" : "- Удивительные белые утёсы.",
+        "date": "2025-03-19"
+    }
+]

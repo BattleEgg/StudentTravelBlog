@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/admin_styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin_styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1455"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 08:20:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/admin_styles.vrl2n14j15.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin_styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vrl2n14j15"},{"Name":"integrity","Value":"sha256-u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/css/admin_styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 08:20:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -12,29 +24,41 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pAGv4ietcJNk/EwsQZ5BN9\u002BK4MuNYS2a9wl4Jw\u002Bq9D0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 14:57:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/styles.5htu8zj2bd.css">
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/styles.375wu9wq46.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5htu8zj2bd"},{"Name":"integrity","Value":"sha256-uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5852"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 08:21:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"375wu9wq46"},{"Name":"integrity","Value":"sha256-TwRYsYaz0M83jZC0PH\u002Bc18sIVMCEGGWDs57gTc7P26I="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6012"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TwRYsYaz0M83jZC0PH\u002Bc18sIVMCEGGWDs57gTc7P26I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:46:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5852"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 08:21:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TwRYsYaz0M83jZC0PH\u002Bc18sIVMCEGGWDs57gTc7P26I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6012"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022TwRYsYaz0M83jZC0PH\u002Bc18sIVMCEGGWDs57gTc7P26I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:46:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/countries.i3wvb936kb.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\countries.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i3wvb936kb"},{"Name":"integrity","Value":"sha256-PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/countries.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"702"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:23:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/countries.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\countries.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"586"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 12:13:54 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"702"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:23:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/countries.mcnh8tbgfq.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\countries.json'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/1.1gputpssim.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\1.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mcnh8tbgfq"},{"Name":"integrity","Value":"sha256-dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/countries.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"586"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 12:13:54 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1gputpssim"},{"Name":"integrity","Value":"sha256-Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38\u002BVncYw="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12726"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38\u002BVncYw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 08:35:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38\u002BVncYw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12726"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38\u002BVncYw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 08:35:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/dover_cliffs.jf3oyqpulp.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\dover_cliffs.png'))</AssetFile>
@@ -95,6 +119,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NbN\u002BZUxVGE4tyKQQ7sA\u002BcfNCc6uJaWF3TcxAprybuNc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1739915"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NbN\u002BZUxVGE4tyKQQ7sA\u002BcfNCc6uJaWF3TcxAprybuNc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 05:41:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/images.hykct4hqf4.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\images.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hykct4hqf4"},{"Name":"integrity","Value":"sha256-561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53\u002BjfKjGE="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/images.jfif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10335"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53\u002BjfKjGE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 05:54:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/images.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\images.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53\u002BjfKjGE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10335"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53\u002BjfKjGE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 05:54:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/imgAboutMe.bscflmc538.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\imgAboutMe.png'))</AssetFile>
@@ -168,29 +204,89 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yogiz2wwkg"},{"Name":"integrity","Value":"sha256-AnDxVjJ2a6pUs5c6th96yC4t2ieG7/ZdL1lTOtA3c80="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/stambul.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1232762"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AnDxVjJ2a6pUs5c6th96yC4t2ieG7/ZdL1lTOtA3c80=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 05:52:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/Switherland.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\Switherland.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13834"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 10:02:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/Switherland.rvbxim8f7e.jfif">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\Switherland.jfif'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rvbxim8f7e"},{"Name":"integrity","Value":"sha256-Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/Switherland.jfif"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13834"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 10:02:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/use case 3.0.onyarxv4jn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\use case 3.0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"onyarxv4jn"},{"Name":"integrity","Value":"sha256-9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/use case 3.0.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"104149"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:19:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/use case 3.0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\use case 3.0.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"104149"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:19:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/командный проект юз кейс.5w8n861r7l.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\командный проект юз кейс.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5w8n861r7l"},{"Name":"integrity","Value":"sha256-xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/\u043A\u043E\u043C\u0430\u043D\u0434\u043D\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442 \u044E\u0437 \u043A\u0435\u0439\u0441.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25924"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:20:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/командный проект юз кейс.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\командный проект юз кейс.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25924"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:20:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/—Pngtree—eart globe with white clouds_8900721.dbr9wtzig5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\—Pngtree—eart globe with white clouds_8900721.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dbr9wtzig5"},{"Name":"integrity","Value":"sha256-d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5\u002BMTI="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/\u2014Pngtree\u2014eart globe with white clouds_8900721.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"410558"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5\u002BMTI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 18:02:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/—Pngtree—eart globe with white clouds_8900721.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\—Pngtree—eart globe with white clouds_8900721.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5\u002BMTI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"410558"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5\u002BMTI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 18:02:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/—Pngtree—flying airplane vector png_7690263.f6jfkwkd1p.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\—Pngtree—flying airplane vector png_7690263.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f6jfkwkd1p"},{"Name":"integrity","Value":"sha256-16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/Images/\u2014Pngtree\u2014flying airplane vector png_7690263.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"75578"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002216Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:24:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/Images/—Pngtree—flying airplane vector png_7690263.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\Images\—Pngtree—flying airplane vector png_7690263.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"75578"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002216Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:24:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/tours.3upczorxk8.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\tours.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3upczorxk8"},{"Name":"integrity","Value":"sha256-y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/tours.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"780"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 10:03:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/tours.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\tours.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"664"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 14:17:33 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/tours.obms1r7ee3.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\tours.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"obms1r7ee3"},{"Name":"integrity","Value":"sha256-/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/tours.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"664"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 14:17:33 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/travels.2606f8uut6.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\travels.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2606f8uut6"},{"Name":"integrity","Value":"sha256-pspBbhNjk9zbdFCvkj9T\u002BMscO4o4n5bne/q1xzb3MNk="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/travels.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"626"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022pspBbhNjk9zbdFCvkj9T\u002BMscO4o4n5bne/q1xzb3MNk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 09:14:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"780"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 10:03:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/travels.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\travels.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pspBbhNjk9zbdFCvkj9T\u002BMscO4o4n5bne/q1xzb3MNk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"626"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022pspBbhNjk9zbdFCvkj9T\u002BMscO4o4n5bne/q1xzb3MNk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Mar 2025 09:14:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"763"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:02:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/Data/travels.m3fjcqh0l2.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\travels.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m3fjcqh0l2"},{"Name":"integrity","Value":"sha256-MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw="},{"Name":"label","Value":"_content/TravelBlogBlazorPages/Data/travels.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"763"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 08:02:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelBlogBlazorPages/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

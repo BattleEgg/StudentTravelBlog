@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelBlogBlazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89aef2c551c6d039ac30e1ebd4b86353971b12b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelBlogBlazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelBlogBlazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

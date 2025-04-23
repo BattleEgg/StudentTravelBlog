@@ -1,20 +1,23 @@
 [
-    {
-        "image": "/Data/Images/north_europe.png",
-        "title": "Северная Европа",
-        "description": "- Красота и строгость.",
-        "date": "2025-03-17"
-    },
-    {
-        "image": "/Data/Images/golden_ring_russia.png",
-        "title": "Золотое кольцо России",
-        "description" : "- Новый взгляд.",
-        "date": "2025-03-18"
-    },
-    {
-        "image": "/Data/Images/piligrimage_trail.png",
-        "title": "Тропа Пилигрима",
-        "description" : "- Из Испании в Португалию",
-        "date": "2025-03-19"
-    }
+  {
+    "id": "f9659aca-e234-4ef4-a0f7-b04e8b8f5e16",
+    "description": "- Красота и строгость.",
+    "date": "2025-03-17T00:00:00",
+    "title": "Северная Европа",
+    "image": "/Data/Images/north_europe.png"
+  },
+  {
+    "id": "8cdcb62c-ebcc-4829-96f4-28d5b9e58231",
+    "description": "- Новый взгляд.",
+    "date": "2025-03-18T00:00:00",
+    "title": "Золотое кольцо России",
+    "image": "/Data/Images/golden_ring_russia.png"
+  },
+  {
+    "id": "d82f066a-d072-4db3-b880-4ba73669b97a",
+    "description": "- Из Испании в Португалию",
+    "date": "2025-03-19T00:00:00",
+    "title": "Тропа Пилигрима",
+    "image": "/Data/Images/piligrimage_trail.png"
+  }
 ]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "niippl8dypYlQgcO3Iyw5xKxc3dew5cNMiT/45ZoBXU=",
+  "Hash": "6F5b1ZRcbrR4ORFx13E1xsr1hdWkDzU0s6eD8xuy5R8=",
   "Source": "TravelBlogBlazorPages",
   "BasePath": "_content/TravelBlogBlazorPages",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelBlogBlazorPages.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\admin_styles.css",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "css/admin_styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrl2n14j15",
+      "Integrity": "u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin_styles.css"
+    },
+    {
       "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\site.css",
       "SourceId": "TravelBlogBlazorPages",
       "SourceType": "Discovered",
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5htu8zj2bd",
-      "Integrity": "uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs=",
+      "Fingerprint": "375wu9wq46",
+      "Integrity": "TwRYsYaz0M83jZC0PH+c18sIVMCEGGWDs57gTc7P26I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -115,11 +136,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mcnh8tbgfq",
-      "Integrity": "dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg=",
+      "Fingerprint": "i3wvb936kb",
+      "Integrity": "PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\countries.json"
+    },
+    {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\1.png",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1gputpssim",
+      "Integrity": "Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38+VncYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\1.png"
     },
     {
       "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\dover_cliffs.png",
@@ -227,6 +269,27 @@
       "OriginalItemSpec": "wwwroot\\Data\\Images\\hispany.png"
     },
     {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\images.jfif",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/images#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hykct4hqf4",
+      "Integrity": "561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53+jfKjGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\images.jfif"
+    },
+    {
       "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\imgAboutMe.png",
       "SourceId": "TravelBlogBlazorPages",
       "SourceType": "Discovered",
@@ -332,6 +395,48 @@
       "OriginalItemSpec": "wwwroot\\Data\\Images\\piligrimage_trail.png"
     },
     {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/—Pngtree—eart globe with white clouds_8900721#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbr9wtzig5",
+      "Integrity": "d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5+MTI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png"
+    },
+    {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/—Pngtree—flying airplane vector png_7690263#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f6jfkwkd1p",
+      "Integrity": "16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png"
+    },
+    {
       "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\stambul.png",
       "SourceId": "TravelBlogBlazorPages",
       "SourceType": "Discovered",
@@ -353,6 +458,69 @@
       "OriginalItemSpec": "wwwroot\\Data\\Images\\stambul.png"
     },
     {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\Switherland.jfif",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/Switherland#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rvbxim8f7e",
+      "Integrity": "Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\Switherland.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\use case 3.0.png",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/use case 3.0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "onyarxv4jn",
+      "Integrity": "9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\use case 3.0.png"
+    },
+    {
+      "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\командный проект юз кейс.png",
+      "SourceId": "TravelBlogBlazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\",
+      "BasePath": "_content/TravelBlogBlazorPages",
+      "RelativePath": "Data/Images/командный проект юз кейс#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5w8n861r7l",
+      "Integrity": "xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\Images\\командный проект юз кейс.png"
+    },
+    {
       "Identity": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\tours.json",
       "SourceId": "TravelBlogBlazorPages",
       "SourceType": "Discovered",
@@ -367,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "obms1r7ee3",
-      "Integrity": "/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ=",
+      "Fingerprint": "3upczorxk8",
+      "Integrity": "y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\tours.json"
@@ -388,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2606f8uut6",
-      "Integrity": "pspBbhNjk9zbdFCvkj9T+MscO4o4n5bne/q1xzb3MNk=",
+      "Fingerprint": "m3fjcqh0l2",
+      "Integrity": "MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\travels.json"
@@ -1636,6 +1804,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/admin_styles.css",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\admin_styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin_styles.vrl2n14j15.css",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\admin_styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:20:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrl2n14j15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin_styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/X5l4XGWWww8sKs32joPWu/bNv9BP5VLVDftZsqq8I="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1718,7 +1968,7 @@
       ]
     },
     {
-      "Route": "css/styles.5htu8zj2bd.css",
+      "Route": "css/styles.375wu9wq46.css",
       "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1728,7 +1978,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5852"
+          "Value": "6012"
         },
         {
           "Name": "Content-Type",
@@ -1736,11 +1986,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs=\""
+          "Value": "\"TwRYsYaz0M83jZC0PH+c18sIVMCEGGWDs57gTc7P26I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 08:21:11 GMT"
+          "Value": "Wed, 23 Apr 2025 06:46:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1750,7 +2000,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5htu8zj2bd"
+          "Value": "375wu9wq46"
         },
         {
           "Name": "label",
@@ -1758,7 +2008,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs="
+          "Value": "sha256-TwRYsYaz0M83jZC0PH+c18sIVMCEGGWDs57gTc7P26I="
         }
       ]
     },
@@ -1773,7 +2023,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5852"
+          "Value": "6012"
         },
         {
           "Name": "Content-Type",
@@ -1781,11 +2031,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs=\""
+          "Value": "\"TwRYsYaz0M83jZC0PH+c18sIVMCEGGWDs57gTc7P26I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 08:21:11 GMT"
+          "Value": "Wed, 23 Apr 2025 06:46:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1795,7 +2045,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uRTBbQYjJktYWGjQwB6n3WTpj0UfK3MdvSljI3gOKhs="
+          "Value": "sha256-TwRYsYaz0M83jZC0PH+c18sIVMCEGGWDs57gTc7P26I="
+        }
+      ]
+    },
+    {
+      "Route": "Data/countries.i3wvb936kb.json",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\countries.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 08:23:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i3wvb936kb"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/countries.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY="
         }
       ]
     },
@@ -1810,7 +2105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "586"
+          "Value": "702"
         },
         {
           "Name": "Content-Type",
@@ -1818,11 +2113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg=\""
+          "Value": "\"PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 12:13:54 GMT"
+          "Value": "Wed, 23 Apr 2025 08:23:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1832,13 +2127,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg="
+          "Value": "sha256-PhMT43Lj9oRPSuwscXleCAnn2OWEOqTz6r3gWHXRYuY="
         }
       ]
     },
     {
-      "Route": "Data/countries.mcnh8tbgfq.json",
-      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\countries.json",
+      "Route": "Data/Images/1.1gputpssim.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1847,19 +2142,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "586"
+          "Value": "12726"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/json"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg=\""
+          "Value": "\"Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38+VncYw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 12:13:54 GMT"
+          "Value": "Thu, 17 Apr 2025 08:35:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1869,15 +2164,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mcnh8tbgfq"
+          "Value": "1gputpssim"
         },
         {
           "Name": "label",
-          "Value": "Data/countries.json"
+          "Value": "Data/Images/1.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dtzeJYTV6jBwMbIEJjCqO3hez52bQHL8JuJmyORQqgg="
+          "Value": "sha256-Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38+VncYw="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/1.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38+VncYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 08:35:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ud0l/WHa5XZ86dG3TBs4/fh8/17/kivnASa38+VncYw="
         }
       ]
     },
@@ -2292,6 +2624,88 @@
       ]
     },
     {
+      "Route": "Data/Images/images.hykct4hqf4.jfif",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\images.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53+jfKjGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 05:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hykct4hqf4"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/images.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53+jfKjGE="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/images.jfif",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\images.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53+jfKjGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 05:54:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-561D0JknkqX1cRKbXWm6iWFj1waCtPSQge53+jfKjGE="
+        }
+      ]
+    },
+    {
       "Route": "Data/Images/imgAboutMe.bscflmc538.png",
       "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\imgAboutMe.png",
       "Selectors": [],
@@ -2702,6 +3116,170 @@
       ]
     },
     {
+      "Route": "Data/Images/—Pngtree—eart globe with white clouds_8900721.dbr9wtzig5.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5+MTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:02:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbr9wtzig5"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/—Pngtree—eart globe with white clouds_8900721.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5+MTI="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/—Pngtree—eart globe with white clouds_8900721.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—eart globe with white clouds_8900721.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5+MTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 18:02:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d6msMs9Rndr5jguI2ZrQPx7UTf0k3qt8/xNbki5+MTI="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/—Pngtree—flying airplane vector png_7690263.f6jfkwkd1p.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 08:24:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f6jfkwkd1p"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/—Pngtree—flying airplane vector png_7690263.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/—Pngtree—flying airplane vector png_7690263.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\—Pngtree—flying airplane vector png_7690263.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 08:24:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-16Lr9VbL8h0OtQbcz2NFIQywOVcy4FNVrDC4OKbKQMg="
+        }
+      ]
+    },
+    {
       "Route": "Data/Images/stambul.png",
       "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\stambul.png",
       "Selectors": [],
@@ -2784,6 +3362,297 @@
       ]
     },
     {
+      "Route": "Data/Images/Switherland.jfif",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\Switherland.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 10:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/Switherland.rvbxim8f7e.jfif",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\Switherland.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13834"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 10:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rvbxim8f7e"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/Switherland.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2Q8C/pYU8kEsxQL7wtNYGJE/TUfC4H38AeeAYYv8h0="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/use case 3.0.onyarxv4jn.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\use case 3.0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 06:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onyarxv4jn"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/use case 3.0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/use case 3.0.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\use case 3.0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 06:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9NzFk0i2Rxp9s9TK0O57uxMlSCB6pYmVMqBCbEVM3hc="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/командный проект юз кейс.5w8n861r7l.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\командный проект юз кейс.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 06:20:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5w8n861r7l"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/Images/командный проект юз кейс.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs="
+        }
+      ]
+    },
+    {
+      "Route": "Data/Images/командный проект юз кейс.png",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\Images\\командный проект юз кейс.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 06:20:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xTyYYVhav5EI8qdlvfluRz0qF0qPo8s9Cg5bfTppMSs="
+        }
+      ]
+    },
+    {
+      "Route": "Data/tours.3upczorxk8.json",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\tours.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 10:03:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3upczorxk8"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/tours.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I="
+        }
+      ]
+    },
+    {
       "Route": "Data/tours.json",
       "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\tours.json",
       "Selectors": [],
@@ -2794,7 +3663,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "664"
+          "Value": "780"
         },
         {
           "Name": "Content-Type",
@@ -2802,11 +3671,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ=\""
+          "Value": "\"y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 14:17:33 GMT"
+          "Value": "Wed, 23 Apr 2025 10:03:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2816,97 +3685,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ="
-        }
-      ]
-    },
-    {
-      "Route": "Data/tours.obms1r7ee3.json",
-      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\tours.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "664"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 14:17:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "obms1r7ee3"
-        },
-        {
-          "Name": "label",
-          "Value": "Data/tours.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/MLXdtDKEnSsnW5lX5/VFW6gBnc1voe7uk5rKy7OHAQ="
-        }
-      ]
-    },
-    {
-      "Route": "Data/travels.2606f8uut6.json",
-      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\travels.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "626"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pspBbhNjk9zbdFCvkj9T+MscO4o4n5bne/q1xzb3MNk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:14:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2606f8uut6"
-        },
-        {
-          "Name": "label",
-          "Value": "Data/travels.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pspBbhNjk9zbdFCvkj9T+MscO4o4n5bne/q1xzb3MNk="
+          "Value": "sha256-y2CKQrojv31SRSb4b/ZOptGyb9dUKmztN9W7HfEsU6I="
         }
       ]
     },
@@ -2921,7 +3700,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "626"
+          "Value": "763"
         },
         {
           "Name": "Content-Type",
@@ -2929,11 +3708,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pspBbhNjk9zbdFCvkj9T+MscO4o4n5bne/q1xzb3MNk=\""
+          "Value": "\"MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 09:14:48 GMT"
+          "Value": "Wed, 23 Apr 2025 08:02:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2943,7 +3722,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pspBbhNjk9zbdFCvkj9T+MscO4o4n5bne/q1xzb3MNk="
+          "Value": "sha256-MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw="
+        }
+      ]
+    },
+    {
+      "Route": "Data/travels.m3fjcqh0l2.json",
+      "AssetFile": "C:\\Users\\timmy\\source\\repos\\TravelBlogBlazorPages\\TravelBlogBlazorPages\\wwwroot\\Data\\travels.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 08:02:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3fjcqh0l2"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/travels.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MhejWrsCXgQA5650jiMbn8CoRQQYeMJM2lxMtdxywKw="
         }
       ]
     },

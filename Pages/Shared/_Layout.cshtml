@@ -8,20 +8,100 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="~/css/styles.css" />
 
-    <link rel="stylesheet" href="~/TravelBlogBlazorPages.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <nav>
+        <div class="flex-nav-bar">
+            <div class="flex-nav-item">
+                <a href="/index#travels">ПУТЕШЕСТВИЯ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#countries">СТРАНЫ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#about">ОБО МНЕ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#tours">ТУРЫ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/admin">АДМИН</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Блог Ивана Иванова</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/css/styles.css" />
+
+</head>
+<body>
+    <nav>
+        <div class="flex-nav-bar">
+            <div class="flex-nav-item">
+                <a href="/index#travels">ПУТЕШЕСТВИЯ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#countries">СТРАНЫ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#about">ОБО МНЕ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/index#tours">ТУРЫ</a>
+            </div>
+            <div class="flex-nav-item">
+                <a href="/admin">АДМИН</a>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <footer>
+        <hr>
+        <div class="flex-section-footer">
+            <div class="flex-section-footer-item">
+                <p>© 2025 Тревел-блог Ивана Иванова.</p>
+                <p>Все права защищены.</p>
+            </div>
+            <div class="flex-section-footer-item">
+                <p>Связаться со мной:</p>
+                <p>
+                    <a href=""> Вконтакте</a>
+                    <a href=""> Телеграмм</a>
+                    <a href=""> Инстаграмм</a>
+                </p>
+            </div>
+            <div class="flex-section-footer-item">
+                <p>Контакты:</p>
+                <p><a href=""> +7(906)179-64-12</a></p>
+                <p><a href="">mivanivanov_work@example.com</a></p>
+            </div>
+        </div>
+    </footer>
 
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

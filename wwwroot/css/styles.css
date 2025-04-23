@@ -25,11 +25,11 @@ hr
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Закрепляет навигационную панель */
-    top: 0; /* Устанавливает её в верхней части экрана */
-    width: 100%; /* Ширина на всю ширину экрана */
-    background-color: rgb(201, 199, 199); /* Цвет фона */
-    z-index: 1000; /* Обеспечивает, чтобы панель была сверху других элементов */
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    background-color: rgb(201, 199, 199);
+    z-index: 1000;
 }
 
 .flex-section-about {
@@ -96,11 +96,11 @@ hr
     color: white;
     text-decoration: none;
     font-weight: bold;
-    display: block; /* Делает ссылку блочным элементом */
-    width: 100%; /* Занимает всю ширину родителя */
-    height: 100%; /* Занимает всю высоту родителя, если нужно */
-    padding: 10px; /* Добавьте отступы, если необходимо */
-    box-sizing: border-box; /* Учитывает отступы и границы в размерах */
+    display: block; 
+    width: 100%;
+    height: 100%;
+    padding: 10px; 
+    box-sizing: border-box;
 }
 
 .header-logo {
@@ -210,8 +210,26 @@ hr
     max-width: 100%;
     max-height: 100%;
     box-sizing: border-box;
-    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-title {
+    display: flex; /* Используем Flexbox */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Выравниваем элементы по центру по вертикали */
+}
+
+.delete-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0; /* Скрываем кнопку изначально */
+    transition: opacity 0.3s; /* Плавный переход для эффекта появления */
+}
+
+.item-title:hover .delete-button {
+    opacity: 1;
 }
 
 .flex-item-list h3 
@@ -260,4 +278,14 @@ hr
     margin: 0 auto;
     border-radius: 15px;
     margin-bottom: 2px;
+}
+
+/* Формы */
+.flex-form {
+    display: flex;
+    font-family: "Merriweather", serif;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 100px;
 }

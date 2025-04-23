@@ -1,0 +1,42 @@
+﻿@page
+@model TravelBlogBlazorPages.Pages.adminModel
+@{
+    <head>
+        <title>Админ-Панель </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форма добавления</title>
+        <link rel="stylesheet" href="~/css/admin_styles.css">
+
+    </head>
+
+    <body>
+        <section id="AddForm">
+            <div class="flex-form">
+                <h1>Добавление элементов блога:</h1>
+                <form enctype="multipart/form-data" method="post">
+                    <select id="options" name="type">
+                        <option value="travels">Путешествия</option>
+                        <option value="countries">Страны</option>
+                        <option value="tours">Туры</option>
+                    </select>
+                    <br><br>
+
+                    <label for="nameInput">Название:</label>
+                    <input type="text" id="nameInput" name="title"> 
+                    <br><br>
+
+                    <label for="descriptionInput">Краткое описание:</label>
+                    <input type="text" id="descriptionInput" name="description">
+                    <br><br>
+
+                    <label for="imageInput">Изображение файл:</label>
+                    <input type="file" id="imageInput" name="Image" accept="image/*" required>
+                    <br><br>
+
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+        </section>
+    </body>
+}

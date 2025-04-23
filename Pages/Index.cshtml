@@ -6,26 +6,9 @@
 
 <head>
     <title>Домашняя страница </title>
-    <link rel="stylesheet" href="~/css/styles.css" />
 </head>
 
 <body>
-    <nav>
-        <div class="flex-nav-bar">
-            <div class="flex-nav-item">
-                <a href="#travels">ПУТЕШЕСТВИЯ</a>
-            </div>
-            <div class="flex-nav-item">
-                <a href="#countries">СТРАНЫ</a>
-            </div>
-            <div class="flex-nav-item">
-                <a href="#about">ОБО МНЕ</a>
-            </div>
-            <div class="flex-nav-item">
-                <a href="#tours">ТУРЫ</a>
-            </div>
-        </div>
-    </nav>
 
     <section id="travels">
         <header id="header-travels">
@@ -36,10 +19,18 @@
         </header>
         <div class="flex-section-travels">
             <div class="flex-section-list">
-                    @foreach (var travel in Model.TravelsList)
+                @foreach (var travel in Model.TravelsList.GetAll())
                     {
                         <div class="flex-item-list">
-                            <h3>@travel.title</h3>
+                            <div class="item-title">
+                               <h3>@travel.title</h3>
+                            <form method="post" asp-page-handler="Delete">
+                                <input type="hidden" name="id" value="@travel.id" />
+                                <input type="hidden" name="type" value="travels" />
+                                <button type="submit" class="delete-button">🗑️</button>
+                            </form>
+                            </div>
+
                             <h5>@travel.description</h5>
                             <img src="@travel.image" alt="@travel.title" />
                             <p>@travel.date.ToShortDateString()</p>
@@ -58,13 +49,20 @@
         </header>
         <div class="flex-section-countries">
             <div class="flex-section-list">
-                @foreach (var travel in Model.CountriesList)
+                @foreach (var country in Model.CountriesList.GetAll())
                 {
                     <div class="flex-item-list">
-                        <h3>@travel.title</h3>
-                        <h5>@travel.description</h5>
-                        <img src="@travel.image" alt="@travel.title" />
-                        <p>@travel.date.ToShortDateString()</p>
+                        <div class="item-title">
+                            <h3>@country.title</h3>
+                            <form method="post" asp-page-handler="Delete">
+                                <input type="hidden" name="id" value="@country.id" />
+                                <input type="hidden" name="type" value="countries" />
+                                <button type="submit" class="delete-button">🗑️</button>
+                            </form>
+                        </div>
+                        <h5>@country.description</h5>
+                        <img src="@country.image" alt="@country.title" />
+                        <p>@country.date.ToShortDateString()</p>
                     </div>
                 }
             </div>
@@ -111,41 +109,25 @@
         </header>
         <div class="flex-section-tours">
             <div class="flex-section-list">
-                @foreach (var travel in Model.ToursList)
+                @foreach (var tour in Model.ToursList.GetAll())
                 {
                     <div class="flex-item-list">
-                        <h3>@travel.title</h3>
-                        <h5>@travel.description</h5>
-                        <img src="@travel.image" alt="@travel.title" />
-                        <p>@travel.date.ToShortDateString()</p>
+                        <div class="item-title">
+                            <h3>@tour.title</h3>
+                            <form method="post" asp-page-handler="Delete">
+                                <input type="hidden" name="id" value="@tour.id" />
+                                <input type="hidden" name="type" value="tours" />
+                                <button type="submit" class="delete-button">🗑️</button>
+                            </form>
+                        </div>
+                        <h5>@tour.description</h5>
+                        <img src="@tour.image" alt="@tour.title" />
+                        <p>@tour.date.ToShortDateString()</p>
                     </div>
                 }
             </div>
         </div>
     </section>
-
-    <footer>
-        <hr>
-        <div class="flex-section-footer">
-            <div class="flex-section-footer-item">
-                <p>© 2025 Тревел-блог Ивана Иванова.</p>
-                <p>Все права защищены.</p>
-            </div>
-            <div class="flex-section-footer-item">
-                <p>Связаться со мной:</p>
-                <p>
-                    <a href=""> Вконтакте</a>
-                    <a href=""> Телеграмм</a>
-                    <a href=""> Инстаграмм</a>
-                </p>
-            </div>
-            <div class="flex-section-footer-item">
-                <p>Контакты:</p>
-                <p><a href=""> +7(906)179-64-12</a></p>
-                <p><a href="">mivanivanov_work@example.com</a></p>
-            </div>
-        </div>
-    </footer>
 
 </body>
 

@@ -1,17 +1,25 @@
+wwwroot\css\admin_styles.css
 wwwroot\css\site.css
 wwwroot\css\styles.css
 wwwroot\Data\countries.json
+wwwroot\Data\Images\1.png
 wwwroot\Data\Images\dover_cliffs.png
 wwwroot\Data\Images\germany.png
 wwwroot\Data\Images\golden_ring_russia.png
 wwwroot\Data\Images\greenland.png
 wwwroot\Data\Images\hispany.png
+wwwroot\Data\Images\images.jfif
 wwwroot\Data\Images\imgAboutMe.png
 wwwroot\Data\Images\imgLogo.png
 wwwroot\Data\Images\north_europe.png
 wwwroot\Data\Images\paris.png
 wwwroot\Data\Images\piligrimage_trail.png
+wwwroot\Data\Images\—Pngtree—eart globe with white clouds_8900721.png
+wwwroot\Data\Images\—Pngtree—flying airplane vector png_7690263.png
 wwwroot\Data\Images\stambul.png
+wwwroot\Data\Images\Switherland.jfif
+wwwroot\Data\Images\use case 3.0.png
+wwwroot\Data\Images\командный проект юз кейс.png
 wwwroot\Data\tours.json
 wwwroot\Data\travels.json
 wwwroot\favicon.ico

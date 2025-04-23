@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    padding-top:150px;
+}
+
+#AddForm {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column; 
+}
+
+h1 {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+label {
+    margin-bottom: 5px; 
+    color: #555; 
+}
+
+select {
+    padding: 10px; 
+    padding-left:10px;
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 5px; /* Скругление углов */
+    font-size: 16px; /* Размер шрифта */
+}
+
+input[type="text"], input[type="file"] {
+    width: 95%;
+    padding: 10px; /* Внутренние отступы */
+    margin-top: 5px; /* Отступ снизу */
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 5px; /* Скругление углов */
+    font-size: 16px; /* Размер шрифта */
+}
+
+input[type="submit"] {
+    background-color: #218838;
+    color: white; /* Белый цвет текста */
+    border: none; /* Без рамки */
+    padding: 10px; /* Внутренние отступы */
+    border-radius: 5px; /* Скругление углов */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта */
+}

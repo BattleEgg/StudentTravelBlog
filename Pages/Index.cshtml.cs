@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Text.Json;
 using TravelBlogBlazorPages.Model;
@@ -6,43 +7,50 @@ namespace TravelBlogBlazorPages.Pages;
 
 public class IndexModel : PageModel
 {
-    public List<Travel> TravelsList { get; private set; } = new();
-    public List<Tour> ToursList { get; private set; } = new();
-    public List<Country> CountriesList { get; private set; } = new();
+    public TravelRepository TravelsList { get; private set; } = new();
+    public TourRepository ToursList { get; private set; } = new();
+    public CountryRepository CountriesList { get; private set; } = new();
 
     public void OnGet()
     {
-        var travelsJson = ReadJsonFile("travels.json");
-        if (travelsJson != null)
-        {
-            TravelsList = JsonSerializer.Deserialize<List<Travel>>(travelsJson) ?? new List<Travel>();
-        }
-
-        var countriesJson = ReadJsonFile("countries.json");
-        if (countriesJson != null)
-        {
-            CountriesList = JsonSerializer.Deserialize<List<Country>>(countriesJson) ?? new List<Country>();
-        }
-
-        var toursJson = ReadJsonFile("tours.json");
-        if (toursJson != null)
-        {
-            ToursList = JsonSerializer.Deserialize<List<Tour>>(toursJson) ?? new List<Tour>();
-        }
+        
     }
 
-
-    private string? ReadJsonFile(string name) 
+    public IActionResult OnPostDelete(Guid id, string type)
     {
-        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Data", name);
-
-        if (System.IO.File.Exists(filePath))
+        switch (type)
         {
-            return System.IO.File.ReadAllText(filePath);
+            case "travels":
+                var travels = TravelsList.GetAll();
+                var travel = travels.SingleOrDefault(i => i.id == id);
+                if (travel != null)
+                {
+                    travels.Remove(travel);
+                    TravelsList.Save(travels);
+                    return RedirectToPage(); // Перенаправляем обратно на страницу
+                }
+                break;
+            case "tours":
+                var tours = ToursList.GetAll();
+                var tour = tours.SingleOrDefault(i => i.id == id);
+                if (tour != null)
+                {
+                    tours.Remove(tour);
+                    ToursList.Save(tours);
+                    return RedirectToPage(); // Перенаправляем обратно на страницу
+                }
+                break;
+            case "countries":
+                var countries = CountriesList.GetAll();
+                var country = countries.SingleOrDefault(i => i.id == id);
+                if (country != null)
+                {
+                    countries.Remove(country);
+                    CountriesList.Save(countries);
+                    return RedirectToPage(); // Перенаправляем обратно на страницу
+                }
+                break;
         }
-        else
-        {
-            return null;
-        }
+        return NotFound(); // Возвращаем ошибку, если элемент не найден
     }
 }
